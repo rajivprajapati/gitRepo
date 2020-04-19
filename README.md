@@ -112,7 +112,62 @@ git add remote origin <link of repo>
 ```
 git push -u origin master
 ```
+### Branching :
+![picture](https://wac-cdn.atlassian.com/dam/jcr:389059a7-214c-46a3-bc52-7781b4730301/hero.svg?cdnVersion=962)
+>when you crate a repo you are in a default branch master
+>but you can create branch and work on that and when you are ok with your work you can merge that branch work on master branch
+```
+git branch <branch-name>
+```
+- to create a new branch
+```
+git branch
+```
+- to show list of branchees
+```
+git checkout <branch-name>
+```
+- to swith to a branch
 
+```
+git checkout -b <branch-name>
+```
+- the above command is used to  create and checkout to that branch simultaneously
+```
+git branch -D <branch name>
+```
+- to delete a branch
+```
+git pull origin <branch-name>
+```
+- to pull a branch from gitHub repo
+```
+git checkout --track origin/branch-name
+```
+```
+git push origin --delete <branch-name>
+```
 
+### Merging Branches :
+>branches can be merged in two ways 
+- fast-forward
+- 3 way merging
 
+```
+git merge <branch-name>
+```
+### Git Rebase :
+![picture](https://git.logikum.hu/images/tutorials/merge-rebase/07.svg)
+>git rebase is use to change the base point from where branch is created
 
+### Fork and Clone :
+> Fork is used to copy someones repo 
+> clone is used to copy someones repo into you local machine
+```
+git clone <link>
+```
+### Collaboration and Contribution:
+> in case of contribution you fork repo and make changes and then create pull request if the owner of repo would like to use your changes then he will merge
+> in case of collaboration all collaborator can work like their own repo
+
+#### END

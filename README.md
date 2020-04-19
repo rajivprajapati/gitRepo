@@ -57,4 +57,62 @@ git config --edit --global
 > press ```wq``` to save and quit.<br>
 
 ### Timeline Travel:
+```
+git show commit-id
+```
+```
+git show head~1
+```
+>to get into a specific commit state of project
+```
+git checkout commit-id
+```
+```
+git checkout master
+```
+```
+git checkout head
+```
+>
+> checkout is read only command
+> for example your made checkout to specific commit and after that you made some changes and then you make commits 
+> but when you will come back to master branch head ```git checkout master``` all changes you made will disappear.<br>
+
+### Git Revert:
+> git revert is use to revert specific commit changes. it just changes that specific commit changes and not touch any other commit
+```
+git revert commit-id
+```
+### Git Reset:
+>it is used to remove commit history till specific commit
+>it can be used in three different forms
+- ```git reset --mixed commit-id```
+- ```git reset --hard commit-id```
+- ```git reset --soft commit-id```
+>in case of mixed commit history will be removed till commit-id and file in which will be affected will be removed from staging area<br>
+>in case of hard commit history will be removed till commit-id and file which will be affected  will also be removed<br>
+>in case of soft commit history will be removed till commit-id and file will be in staging area<br>
+
+``` 
+git reset <file-name>
+```
+>above command you can use to remove file from staging area.<br>
+```
+git checkout <file-name>
+```
+> you can use above command to remove changes made in file which is not in stagin area.<br>
+
+### GitHub :
+> to host your local repo in github 
+- create a repo in git hub 
+```
+git add remote origin <link of repo>
+```
+>to push your local repo in github
+```
+git push -u origin master
+```
+
+
+
 

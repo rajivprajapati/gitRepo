@@ -181,7 +181,12 @@ git remote -v
 git remote rm origin
 ```
 >note if you added your remote with different name then replace origin with that name
-
-
+### fatal: refusing to merge unrelated histories
+> this error occurs due to the merge of unrelated project 
+> to know more go to https://www.educative.io/edpresso/the-fatal-refusing-to-merge-unrelated-histories-git-error
+![picture](https://www.educative.io/api/edpresso/shot/4755609222119424/image/5534126872461312)
+```
+git pull origin master --allow-unrelated-histories
+```
 
 #### END

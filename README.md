@@ -170,4 +170,18 @@ git clone <link>
 > in case of contribution you fork repo and make changes and then create pull request if the owner of repo would like to use your changes then he will merge
 > in case of collaboration all collaborator can work like their own repo
 
+### Removing a remote
+> sometime you want to remove a added remote due to some reason<br>
+> first check list of added remote
+```
+git remote -v
+```
+> to remote a remote 
+```
+git remote rm origin
+```
+>note if you added your remote with different name then replace origin with that name
+
+
+
 #### END

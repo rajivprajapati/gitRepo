@@ -106,7 +106,7 @@ git checkout <file-name>
 > to host your local repo in github 
 - create a repo in git hub 
 ```
-git add remote origin <link of repo>
+git remote add origin <link of repo>
 ```
 >to push your local repo in github
 ```

@@ -189,4 +189,9 @@ git remote rm origin
 git pull origin master --allow-unrelated-histories
 ```
 
+** push empty commit
+```
+git commit --allow-empty -m "Empty-Commit"
+```
+
 #### END

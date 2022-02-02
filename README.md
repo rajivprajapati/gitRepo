@@ -101,7 +101,10 @@ git reset <file-name>
 git checkout <file-name>
 ```
 > you can use above command to remove changes made in file which is not in stagin area.<br>
-
+> after reset to push the changes to remote repo <br>
+```
+git push -f
+```
 ### GitHub :
 > to host your local repo in github 
 - create a repo in git hub 
@@ -192,5 +195,11 @@ git pull origin master --allow-unrelated-histories
 ```
 git commit --allow-empty -m "Empty-Commit"
 ```
+### pick a commit from one branch and add to another branch  ( just reverse of revert)
+```
+git cherry-pick <commit id>
+```
+
+
 
 #### END

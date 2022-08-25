@@ -200,6 +200,11 @@ git commit --allow-empty -m "Empty-Commit"
 git cherry-pick <commit id>
 ```
 
+### ssl error
+```
+git config --global http.sslBackend schannel
+```
+
 
 
 #### END

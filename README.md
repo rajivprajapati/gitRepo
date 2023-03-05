@@ -27,6 +27,9 @@ rm -d <folder-name>
 
 ### list staging files
 ```git ls-files```
+
+### remove file from directory as well as from staging area
+```git rm <file name(s)>```
 ### Git Commit:
 > to save changes ( use this after the file get into staging area) </br>
 ```

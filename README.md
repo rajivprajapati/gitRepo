@@ -24,6 +24,9 @@ rm -d <folder-name>
 ```git status``` - to check the status of files.</br>
 ```git add <file-name>```- to add a single file into staging area.</br>
 ```git add .```- to add all newly created file into staging area </br>
+
+### list staging files
+```git ls-files```
 ### Git Commit:
 > to save changes ( use this after the file get into staging area) </br>
 ```

@@ -13,7 +13,7 @@ cd ..
 cd ../..
 cd <path-of-folder>
 mkdir <new-folder-name>
-toch <file-name>
+touch <file-name>
 rm <file-name>
 rm -d <folder-name>
 ```

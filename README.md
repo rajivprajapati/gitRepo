@@ -46,6 +46,22 @@ git log
 ```
 git log --oneline
 ```
+
+### Stash the staged changes:
+if there are some changes into staging area that you don't want to to commit for now then you can use the stash
+> to stash the changes
+```
+git stash
+```
+> to get back stashed to stage
+```
+git pop
+```
+> to clear the stash
+```
+git stash clear
+```
+
 ![picture](https://blog.marvelapp.com/wp-content/uploads/2016/10/Git.png)
 ### Git Config:
 >to configure your global config file </br>
